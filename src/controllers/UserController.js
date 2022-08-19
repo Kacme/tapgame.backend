@@ -4,7 +4,7 @@ const bcrypt = require('bcrypt');
 const Piii = require('piii');
 const piiiFilters = require('piii-filters');
 
-function fixZero(time) {
+function fixZero(time) {    
     return time < 10 ? `0${time}` : time;
 }
 
